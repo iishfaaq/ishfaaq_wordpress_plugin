@@ -2,13 +2,13 @@
 // Register a new menu item in the admin dashboard
 function ishfaaq_register_messages_menu() {
     add_menu_page(
-        'Ishfaaq plugin Messages',       // Page title
-        'Ishfaaq Plugin Messages',       // Menu title
-        'manage_options',         // Capability
-        'contact_messages',       // Menu slug
-        'ishfaaq_display_messages_page', // Callback function to display the messages
-        'dashicons-email',        // Icon
-        90                        // Position
+        'Ishfaaq plugin Messages',       
+        'Ishfaaq Plugin Messages',       
+        'manage_options',         
+        'contact_messages',       
+        'ishfaaq_display_messages_page', 
+        'dashicons-email',        
+        90                        
     );
 }
 add_action('admin_menu', 'ishfaaq_register_messages_menu');
