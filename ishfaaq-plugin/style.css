@@ -1,0 +1,68 @@
+/* Style for the entire settings section */
+#ishfaaq-main-settings-section {
+  background-color: #ffffff; /* White background */
+  padding: 20px; /* Padding for the content */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 20px; /* Space below the section */
+}
+
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-form label {
+  font-weight: bold;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  border-color: #0073aa;
+  outline: none;
+}
+.contact-form input[type="submit"] {
+  background-color: #0073aa;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+.contact-form input[type="submit"]:hover {
+  background-color: #005177;
+}
+.alert {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  display: block;
+}
+.alert-danger {
+  background-color: #f44336;
+  color: white;
+}
+.alert-success {
+  background-color: #4caf50;
+  color: white;
+}
